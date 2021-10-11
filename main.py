@@ -50,7 +50,9 @@ def main():
   x = 4
   y = 8
   print(get_cmmdc_v1(x,y))
+  print("citeste primul numar:")
   x = int( input() )
+  print("citeste al doilea numar:")
   y = int( input() )
   print(get_cmmdc_v2(x,y))
 if __name__ == '__main__':
