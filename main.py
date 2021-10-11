@@ -42,14 +42,14 @@ def get_cmmdc_v2(x, y):
 
 def main():
   # interfata de tip consola aici
-  # print("citeste un numar")
-  # n = int( input() )
-  # print(is_prime(n))
-  # lst = [1,5,7,8,9,10]
-  # print( get_product(lst))
-  # x = 4
-  # y = 8
-  # print(get_cmmdc_v1(x,y))
+  print("citeste un numar")
+  n = int( input() )
+  print(is_prime(n))
+  lst = [1,5,7,8,9,10]
+  print( get_product(lst))
+  x = 4
+  y = 8
+  print(get_cmmdc_v1(x,y))
   x = int( input() )
   y = int( input() )
   print(get_cmmdc_v2(x,y))
